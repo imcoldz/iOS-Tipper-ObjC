@@ -14,6 +14,9 @@
 		E2BDCADA1A6DD88D007B7DD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BDCAD91A6DD88D007B7DD1 /* Images.xcassets */; };
 		E2BDCADD1A6DD88D007B7DD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2BDCADB1A6DD88D007B7DD1 /* LaunchScreen.xib */; };
 		E2BDCAE91A6DD88D007B7DD1 /* TipperOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDCAE81A6DD88D007B7DD1 /* TipperOCTests.m */; };
+		E2BDCAF31A6DD9E6007B7DD1 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2BDCAF21A6DD9E6007B7DD1 /* View.xib */; };
+		E2BDCAF71A6E3FDA007B7DD1 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDCAF51A6E3FDA007B7DD1 /* SettingsViewController.m */; };
+		E2BDCAF81A6E3FDA007B7DD1 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2BDCAF61A6E3FDA007B7DD1 /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		E2BDCAE21A6DD88D007B7DD1 /* TipperOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BDCAE71A6DD88D007B7DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2BDCAE81A6DD88D007B7DD1 /* TipperOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipperOCTests.m; sourceTree = "<group>"; };
+		E2BDCAF21A6DD9E6007B7DD1 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		E2BDCAF41A6E3FDA007B7DD1 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		E2BDCAF51A6E3FDA007B7DD1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E2BDCAF61A6E3FDA007B7DD1 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +92,14 @@
 				E2BDCAD11A6DD88D007B7DD1 /* AppDelegate.m */,
 				E2BDCAD31A6DD88D007B7DD1 /* ViewController.h */,
 				E2BDCAD41A6DD88D007B7DD1 /* ViewController.m */,
+				E2BDCAF21A6DD9E6007B7DD1 /* View.xib */,
 				E2BDCAD61A6DD88D007B7DD1 /* Main.storyboard */,
 				E2BDCAD91A6DD88D007B7DD1 /* Images.xcassets */,
 				E2BDCADB1A6DD88D007B7DD1 /* LaunchScreen.xib */,
 				E2BDCACC1A6DD88D007B7DD1 /* Supporting Files */,
+				E2BDCAF41A6E3FDA007B7DD1 /* SettingsViewController.h */,
+				E2BDCAF51A6E3FDA007B7DD1 /* SettingsViewController.m */,
+				E2BDCAF61A6E3FDA007B7DD1 /* SettingsViewController.xib */,
 			);
 			path = TipperOC;
 			sourceTree = "<group>";
@@ -199,9 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2BDCAF31A6DD9E6007B7DD1 /* View.xib in Resources */,
 				E2BDCAD81A6DD88D007B7DD1 /* Main.storyboard in Resources */,
 				E2BDCADD1A6DD88D007B7DD1 /* LaunchScreen.xib in Resources */,
 				E2BDCADA1A6DD88D007B7DD1 /* Images.xcassets in Resources */,
+				E2BDCAF81A6E3FDA007B7DD1 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +235,7 @@
 				E2BDCAD51A6DD88D007B7DD1 /* ViewController.m in Sources */,
 				E2BDCAD21A6DD88D007B7DD1 /* AppDelegate.m in Sources */,
 				E2BDCACF1A6DD88D007B7DD1 /* main.m in Sources */,
+				E2BDCAF71A6E3FDA007B7DD1 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
